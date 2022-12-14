@@ -27,7 +27,7 @@ ou omitidas com "[ ]"), "title", "text" e "button" (nessa ordem):
     </script>
     ```
 
-### Variáveis
+### Parâmetros:
 * Dimensions: 
     ```html 
       <script>
