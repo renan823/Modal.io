@@ -12,7 +12,7 @@
 ## Docs
 
 ### Modal básico
-* Qualquer modal, para ser criado, precisa dos parâmetros "dimensions" (devem ser passadas em uma lista, no formato "[width, height]",<br> 
+* Qualquer modal, para ser criado, precisa dos parâmetros "dimensions" (devem ser passadas em uma lista, no formato "[width, height]", 
 ou omitidas com "[ ]"), "title", "text" e "button" (nessa ordem): 
     ```html 
     <script>
@@ -34,7 +34,8 @@ ou omitidas com "[ ]"), "title", "text" e "button" (nessa ordem):
           const dimensions = [width, height] || [];
       </script>
     ```
-    <p> O parâmetro "dimensions" pode receber os tamanhos desejados, ou, simplesmente, usar os tamanhos pré definidos pelo sistema <br> (width = 350, heigth = auto).
+    <p> O parâmetro "dimensions" pode receber os tamanhos desejados, ou, simplesmente, usar os tamanhos pré definidos pelo sistema 
+    (width = 350, heigth = auto).
     </p>
     
 * Title: 
