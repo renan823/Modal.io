@@ -16,14 +16,14 @@
 ou omitidas com "[ ]"), "title", "text" e "button" (nessa ordem): 
     ```html 
     <script>
-        const modal = new Modal([], {msg: "Hello"}, {msg: "Hello world!"}, {msg: "Click here", color: "blue"});
+        new Modal([], {msg: "Hello"}, {msg: "Hello world!"}, {msg: "Click here", color: "blue"});
     </script>
     ```
 * O modal básico também pode ser usado para criar um modal de sucesso/erro:
   ```html 
     <script>
-        const success = new SuccessModal([], {msg: "Oh Yeah"}, {msg: "Success!"}, {msg: "Close"});
-        const error = new ErrorModal([], {msg: "Oh no"}, {msg: "Error!"}, {msg: "Close"});
+        new SuccessModal([], {msg: "Oh Yeah"}, {msg: "Success!"}, {msg: "Close"});
+        new ErrorModal([], {msg: "Oh no"}, {msg: "Error!"}, {msg: "Close"});
     </script>
     ```
 
